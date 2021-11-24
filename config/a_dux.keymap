@@ -29,13 +29,13 @@
         layer_1 {
             bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-    &kp N1        &kp N2        &kp N3        &kp N4        &kp N5            &none         &kp HOME      &kp UP        &kp PAGE_UP   &kp BACKSPACE
+    &kp Q         &kp W         &kp E         &kp R         &kp T             &kp Y         &kp U         &kp I         &kp O         &kp P
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &mt LWIN N6   &mt LALT N7   &mt LCTRL N8  &mt LSHIFT N9 &kp N0            &none         &kp LEFT      &kp TAB       &kp RIGHT     &mt INSERT
+    &mt LWIN A    &mt LALT S    &mt LCTRL D   &mt LSHIFT F  &kp G             &kp H         &mt RSHIFT J  &mt RCTRL K   &mt RALT L    &mt RWIN SEMI
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &kp ESCAPE    &kp DOT       &none         &none         &none             &none         &kp END       &kp DOWN      &kp PAGE_DOWN &kp DELETE
+    &kp Z         &kp X         &kp C         &kp V         &kp B             &kp N         &kp M         &kp COMMA     &kp DOT       &kp SLASH
 // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
-                                              &trans        &trans            &trans        &trans
+                                              &lt 3 SPACE   &mo 1             &mo 2         &lt 4 ENTER
 //                                           ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             >;
         };
