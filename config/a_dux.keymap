@@ -29,11 +29,11 @@
         layer_1 {
             bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-    &none         &none         &none         &none         &none             &none         &none         &none         &none         &none         
+    &kp N1        &kp N2        &kp N3        &kp N4        &kp N5            &none         &kp HOME      &kp UP        &kp PAGE_UP   &kp BACKSPACE
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &none         &none         &none         &none         &none             &none         &none         &none         &none         &none         
+    &mt LWIN N6   &mt LALT N7   &mt LCTRL N8  &mt LSHIFT N9 &kp N0            &none         &kp LEFT      &kp TAB       &kp RIGHT     &kp INSERT
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &none         &none         &none         &none         &none             &none         &none         &none         &none         &none         
+    &kp ESCAPE    &kp DOT       &none         &none         &none             &none         &kp END       &kp DOWN      &kp PAGE_DOWN &kp DELETE
 // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
                                               &trans        &trans            &trans        &trans
 //                                           ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
