@@ -42,11 +42,11 @@
         layer_2 {
             bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-    &kp KP_DIVIDE &kp KC_P7     &kp KC_P8     &kp KC_P9     &kp KP_MULTIPLY    &kp KP_DIVIDE &kp KC_P7     &kp KC_P8     &kp KC_P9     &kp KP_MULTIPLY
+    &kp F1        &kp F2        &kp F3        &kp F4        &kp F5            &kp KP_DIVIDE &kp KP_N7     &kp KP_N8     &kp KP_N9     &kp KP_MULTIPLY
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &kp KP_MINUS  &kp KC_P4     &kp KC_P5     &kp KC_P6     &kp KP_PLUS    &kp KP_MINUS  &kp KC_P4     &kp KC_P5     &kp KC_P6     &kp KP_PLUS
+    &mt LWIN F6   &mt LALT F7   &mt LCTRL F8  &mt LSHIFT F9 &kp F10           &kp KP_MINUS  &kp KP_N4     &kp KP_N5     &kp KP_N6     &kp KP_PLUS
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &kp KP_DOT    &kp KC_P1     &kp KC_P2     &kp KC_P3     &kp KP_EQUAL    &kp KP_DOT    &kp KC_P1     &kp KC_P2     &kp KC_P3     &kp KP_EQUAL
+    &kp F11       &none         &none         &none         &kp F12           &kp KP_DOT    &kp KP_N1     &kp KP_N2     &kp KP_N3     &kp KP_EQUAL
 // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
                                               &trans        &trans            &trans        &trans
 //                                           ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
