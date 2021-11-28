@@ -7,7 +7,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/mouse.h>
 
 / {
 
@@ -68,11 +67,11 @@
         layer_4 {
             bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-    &kp KP_NLCK   &bt BT_NXT    &kp C_BRI_UP  &kp C_VOL_UP  &none             &bootloader   &none         &mwh SCROLL_UP &none        &none         
+    &kp KP_NLCK   &bt BT_NXT    &kp C_BRI_UP  &kp C_VOL_UP  &none             &bootloader   &none         &none         &none         &none        
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &kp CLCK      &bt BT_CLR    &none         &kp C_MUTE    &none             &none         &mkp LCLK     &none         &mkp RCLK     &none         
+    &kp CLCK      &bt BT_CLR    &none         &kp C_MUTE    &none             &none         &none         &none         &none         &none         
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &kp SLCK      &bt BT_PRV    &kp C_BRI_DN  &kp C_VOL_DN  &none             &reset        &none         &mwh SCROLL_DOWN &none         &none         
+    &kp SLCK      &bt BT_PRV    &kp C_BRI_DN  &kp C_VOL_DN  &none             &reset        &none         &none         &none         &none         
 // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
                                               &trans        &trans            &trans        &trans
 //                                           ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
